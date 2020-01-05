@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="jumbotron">
+  <h1 class="display-4">Hola!</h1>
+  <p class="lead">Bienvenidos a mi pagina Creada en Pyhton con Flask</p>
+  <hr class="my-4">
+  <p>Autor: W. González</p>
+  <a class="btn btn-primary btn-lg" href="{{ url_for('about')}}" role="button">Learn more</a>
+</div>
+{% endblock %}
